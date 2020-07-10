@@ -6,13 +6,27 @@
 }
 
 .infected {
-  border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+  border-left: 10px solid rgba(0, 0, 255, 0.8);
 }
 
 .recovered {
-  border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+  border-left: 10px solid rgba(0, 255, 0, 0.5);
 }
 
 .deaths {
-  border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+  border-left: 10px solid rgba(255, 0, 0, 0.5);
+}
+.infected:hover {
+  background-color: rgba(0, 0, 255, 0.5);
+  color: white;
+}
+
+.recovered:hover {
+  background-color: rgba(0, 255, 0, 0.5);
+  color: white;
+}
+
+.deaths:hover {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: white;
 }
